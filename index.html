@@ -5,6 +5,7 @@
 	<meta charset="UTF-8">
 	<title>Rudolph Musli -- World's Best Cereal Photographer</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link href="https://fonts.googleapis.com/css?family=Pacifico|Slabo+27px" rel="stylesheet">
 	
 	<!-- Bootstrap linking -->
 		<!-- Latest compiled and minified CSS -->
@@ -17,38 +18,47 @@
 
 </head>
 <body>
-	<div class="container">
+	<div class="container-fluid">
 		<!-- Header -->
-		<div class="row">
-			<div class="col-sm-1 col-lg-1">
+		<div class="row header">
+			<div class="col-sm-1 col-md-1">
 			</div>
-			<div class="col-sm-3 col-lg-3">
+			<div class="col-sm-3 col-md-3">
 				<div class="page-header">
-  					<h1>Rudolph Musli<br><small>Worlds Greatest Cereal Photographer</small></h1>
+  					<h1>Rudolph Musli</h1>
 				</div>
 			</div>
-			<div class="col-sm-8 col-lg-8">
-				<ul class="nav nav-pills">
-  					<li role="presentation" class="active nav_element bg-warning""><a href="index.html">Home</a></li>
-  					<li role="presentation" class="nav_element bg-warning""><a href="portfolio.html">Portfolio</a></li>
-  					<li role="presentation" class="nav_element bg-warning""><a href="contact.html">Contact</a></li>
-				</ul>
+			<div class="col-sm-8 col-md-8">
+				<div class="row">
+					<div class="col-md-12">
+						<ul class="nav nav-pills" id="nav_bar">
+  							<li role="presentation" class="active nav_element bg-warning nav_element""><a href="index.html">Home</a></li>
+  							<li role="presentation" class="nav_element bg-warning nav_element""><a href="portfolio.html">Portfolio</a></li>
+  							<li role="presentation" class="nav_element bg-warning nav_element""><a href="contact.html">Contact</a><li>
+						</ul>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<h3 id="title">Worlds Greatest Cereal Photographer</h3>
+					</div>
+				</div>
 			</div>
 		</div>
 
 		<!--Main section-->
 		<div class="row">
 			<div class="col-sm-12 col-lg-8">
-				<div class="row">
-					<div class="col-sm-12 col-lg-4">
-						<img class="img-rounded" src="assets/images/RudolphMusli.jpg" alt="Rudolph Musli portrait.">
+				<div class="row main_section">
+					<div class="col-sm-12 col-md-6">
+						<img class="img-rounded portrait" src="assets/images/RudolphMusli.jpg" alt="Rudolph Musli portrait.">
 					</div>
-					<div class="col-sm-12 col-lg-8 yellow">
+					<div class="col-sm-12 col-md-6 letter">
 						<p>
-							For many people, it takes decades to discover one’s true passion. Some people never find it. But I found mine when I was just nine years old. I was eating a box of Kellog’s Corn Pops when I was suddenly struck by the incredible beauty of the organic structure I was consuming. I knew that very moment that I wanted to dedicate my life to photographing breakfast cereal. 
+							For many people, it takes decades to discover one’s true passion. Some people never find it. But I found mine when I was just nine years old. I was eating a box of <em>Kellog’s Corn Pops</em> when I was suddenly struck by the incredible beauty of the organic structure I was consuming. I knew that very moment that I wanted to dedicate my life to photographing breakfast cereal. 
   						</p>
   						<p>
-							My name is Rudolph Musli, and I consider myself the greatest cereal photographer in the world. I’ve come along ways since my initial start with Kellog’s Corn Pops. In my career, which has spanned nearly five decades, I have photographed everything from the plebeian, populist Kroger Store Brand Nutty Nuggets to the elite and sought after Nature’s Path Organic Crunchy Cereals. I’ve worked with everyone industry leading behemoths like Post to the new kids on the block, like Bear Naked back in ‘02, before they were cool. 
+							My name is Rudolph Musli, and I consider myself the greatest cereal photographer in the world. I’ve come along ways since my initial start with <em>Kellog’s Corn Pops</em>. In my career, which has spanned nearly five decades, I have photographed everything from the plebeian, populist <em>Kroger Store Brand Nutty Nuggets</em> to the elite and sought after <em>Nature’s Path Organic Crunchy Cereals.</em> I’ve worked with everyone: industry leading behemoths like <em>Post</em> to the new kids on the block, like <em>Bear Naked</em> back in ‘02, before they were cool. 
 						</p>
 						<p>
 							I hope you enjoy ‘getting a taste’ of my work, here on my portfolio website. Be sure to follow me on Twitter, and don’t be intimidated to reach out if you have some cereal that needs photographing. 
@@ -66,12 +76,16 @@
 				</div>
 			</div>
 			<div class="col-sm-12 col-lg-4 black">
+				<div id="social_connect">
+					<p>Connect</p>
+					<img src="assets/images/Twitter_bird.png" alt="Twitter logo" id="Twitter_logo">
+				</div>
 			</div>
 		</div>
 
 		<!--Footer-->
 		<div class="row">
-			<div class="col-sm-12 col-lg-12">
+			<div class="col-sm-12 col-md-12">
 				<footer>
 					<p>Copyright 2017</p>
 				</footer>

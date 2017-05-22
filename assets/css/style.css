@@ -1,10 +1,74 @@
+body {
+	background: #474747;
+}
+
+.portrait {
+	max-width: 400px;
+	background: green;
+	margin-left: 45px;
+}
+
+.header {
+	background: white; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#f7f4f4, #e2e2e2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#f7f4f4, #e2e2e2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#f7f4f4, #e2e2e2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#f7f4f4, #e2e2e2); /* Standard syntax */
+    border-bottom: 9px solid black;
+}
+
+#title {
+	color: #606060;
+}
+
+#nav_bar {
+	margin-top: 15px;
+}
+
 .nav_element {
+	padding-right: 20px;
 }
 
-.black {
-	background: black;
+.main_section {
+	margin-top: 30px;
+	margin-left: 20px;
+	background: #e9fc3a;
+	padding: 15px;
+	border: 3px solid black;
+	border-radius: 6px;
+	margin-right: 20px;
 }
 
-.yellow {
-	background: yellow;
+p {
+	font-family: 'Slabo 27px', serif;
+}
+
+.signature {
+	font-family: 'Pacifico', cursive;
+}
+
+p::first-letter {
+    font-size: x-large;
+}
+
+.letter {
+	background: #dbdbdb;
+	border-radius: 10px;
+	margin-top: 15px;
+}
+
+#Twitter_logo {
+	max-width: 50px;
+}
+
+#social_connect {
+	background: #e9fc3a;
+	max-width: 75px;
+	margin-top: 30px;
+	margin-left: 20px;
+	padding-left: 13px;
+	padding-bottom: 13px;
+	border: 3px solid black;
+	border-radius: 6px;
+	padding-right: 16px;
 }
