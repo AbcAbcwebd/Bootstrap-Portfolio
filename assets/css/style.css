@@ -111,3 +111,19 @@ p::first-letter {
     margin-right: auto;
     width: 4em
 }
+
+h1 {
+	border: 6px solid black;
+	padding: 10px 10px 10px 10px;
+	text-align: center;
+}
+
+.gallery {
+	margin-top: 30px;
+}
+
+#contact_form {
+	margin-top: 30px;
+}
+
+#success_message{ display: none;}
