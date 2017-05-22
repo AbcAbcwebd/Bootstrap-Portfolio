@@ -2,10 +2,14 @@ body {
 	background: #474747;
 }
 
+.portrait_cont {
+	margin-left: auto;
+    margin-right: auto;
+    width: 25em
+}
+
 .portrait {
-	max-width: 400px;
-	background: green;
-	margin-left: 45px;
+	max-width: 100%;
 }
 
 .header {
@@ -58,17 +62,52 @@ p::first-letter {
 }
 
 #Twitter_logo {
-	max-width: 50px;
+	margin-left: auto;
+    margin-right: auto;
+    width: 4em
+}
+
+#Twitter_logo:hover {
+	filter: invert(100%);
 }
 
 #social_connect {
 	background: #e9fc3a;
-	max-width: 75px;
 	margin-top: 30px;
 	margin-left: 20px;
+	margin-right: 20px;
 	padding-left: 13px;
 	padding-bottom: 13px;
 	border: 3px solid black;
 	border-radius: 6px;
 	padding-right: 16px;
+}
+
+.text_box {
+	border: 3px solid black;
+	border-radius: 6px;
+	background: #e9fc3a;
+	margin-top: 30px;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-left: 13px;
+	padding-bottom: 9px;
+	padding-top: 9px;
+	padding-right: 16px;
+	text-align: center;
+}
+
+#foot {
+	border-top: 3px solid black;
+	background: #e9fc3a;
+	margin-top: 30px;
+	padding-bottom: 9px;
+	padding-top: 9px;
+	text-align: center;	
+}
+
+#social_compon {
+	margin-left: auto;
+    margin-right: auto;
+    width: 4em
 }
