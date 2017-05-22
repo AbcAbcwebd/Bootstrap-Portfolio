@@ -81,6 +81,15 @@ p::first-letter {
 	border: 3px solid black;
 	border-radius: 6px;
 	padding-right: 16px;
+	animation-name: fly_in_right;
+	animation-duration: 4s;
+
+
+}
+
+#social_connect:hover {
+	animation-name: section_hover;
+	animation-duration: 4s;
 }
 
 .text_box {
@@ -95,6 +104,13 @@ p::first-letter {
 	padding-top: 9px;
 	padding-right: 16px;
 	text-align: center;
+	animation-name: fly_in_right;
+	animation-duration: 4s;
+}
+
+.text_box:hover {
+	animation-name: section_hover;
+	animation-duration: 4s;
 }
 
 #foot {
@@ -104,6 +120,11 @@ p::first-letter {
 	padding-bottom: 9px;
 	padding-top: 9px;
 	text-align: center;	
+}
+
+#foot:hover {
+	animation-name: section_hover;
+	animation-duration: 4s;
 }
 
 #social_compon {
@@ -116,6 +137,75 @@ h1 {
 	border: 6px solid black;
 	padding: 10px 10px 10px 10px;
 	text-align: center;
+}
+
+h1:hover {
+	animation-name: header_inverse;
+    animation-duration: 4s;
+}
+
+@keyframes header_inverse {
+    from {
+    		background-color: black;
+    		color: white;
+    	}
+    to {
+    	background-color: inherit;
+    	color: inherit;
+    }
+}
+
+#greatest {
+	animation-name: greatest_bold;
+    animation-duration: 4s;
+}
+
+@keyframes greatest_bold {
+    from {
+    		font-size: 150%;
+    	}
+    to {
+    	font-size: inherit;
+    }
+}
+
+.main_section:hover {
+	animation-name: section_hover;
+	animation-duration: 4s;
+}
+
+@keyframes section_hover {
+    from {
+    		background-color: blue;
+    		color: black;
+    	}
+    to {
+    	background-color: red;
+    }
+}
+
+@keyframes fly_in_right {
+    from {
+    		margin-left: 300px;
+    	}
+    to {
+    	margin-left: inherit;
+    }
+}
+
+.gallery_image {
+	animation-name: expand;
+	animation-duration: 4s;
+}
+
+@keyframes expand {
+    from {
+    		position: absolute;
+    		top: 500px;
+    	}
+    to {
+    	position: inherit;
+    }
 }
 
 .gallery {
