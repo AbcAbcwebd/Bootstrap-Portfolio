@@ -75,17 +75,42 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-10 col-lg-2 black">
-				<div id="social_connect">
-					<div id="social_compon">
-						<p>Connect</p>
-						<a href="https://twitter.com/RudolphMusli" target="_blank"><img src="assets/images/Twitter_bird.png" alt="Twitter logo" id="Twitter_logo"></a>
+			<div class="col-sm-10 col-lg-4">
+				<div class="row">
+					<div class="col-sm-10 col-lg-6 black">
+						<div id="social_connect">
+							<div id="social_compon">
+								<p>Connect</p>
+								<a href="https://twitter.com/RudolphMusli" target="_blank"><img src="assets/images/Twitter_bird.png" alt="Twitter logo" id="Twitter_logo"></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-10 col-lg-6">
+						<div class="text_box">
+							<p>"I am addicted to cereal."<br>-<em>Summer Sanders</em></p>
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="col-lg-2 col-sm-10">
-				<div class="text_box">
-					<p>"I am addicted to cereal."<br>-<em>Summer Sanders</em></p>
+				<div class="row">
+					<div class="col-lg-12">
+						<form>
+							<p>What is your favorite cereal?</p>
+  							<input type="radio" name="fav_cereal" value="coco_puff" id="cerealChoice1" onclick="updateToCoco()" checked> Coco Puffs<br>
+  							<input type="radio" name="fav_cereal" value="rice_crispies" id="cerealChoice2" onclick="updateToRice()"> Rice Crispies<br>
+  							<input type="radio" name="fav_cereal" value="capt_crunch" id="cerealChoice3" onclick="updateToCapt()"> Capt. Crunch<br><br>
+						</form> 
+						<script>
+							function updateToCoco(){
+								alert("Running coco!")
+							}
+							function updateToRice(){
+								alert("Running rice!")
+							}
+							function updateToCapt(){
+								alert("Running capt!")
+							}
+						</script>
+					</div>
 				</div>
 			</div>
 		</div>
