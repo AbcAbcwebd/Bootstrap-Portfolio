@@ -92,23 +92,38 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-lg-12">
+					<div class="col-lg-12 text_box">
 						<form>
 							<p>What is your favorite cereal?</p>
-  							<input type="radio" name="fav_cereal" value="coco_puff" id="cerealChoice1" onclick="updateToCoco()" checked> Coco Puffs<br>
-  							<input type="radio" name="fav_cereal" value="rice_crispies" id="cerealChoice2" onclick="updateToRice()"> Rice Crispies<br>
+  							<input type="radio" name="fav_cereal" value="coco_puff" id="cerealChoice1" onclick="updateToCoco()"> Coco Puffs<br>
+  							<input type="radio" name="fav_cereal" value="rice_crispies" id="cerealChoice2" onclick="updateToRice()"> Rice Krispies<br>
   							<input type="radio" name="fav_cereal" value="capt_crunch" id="cerealChoice3" onclick="updateToCapt()"> Capt. Crunch<br><br>
 						</form> 
 						<script>
+							image = "assets/images/Quest.jpg"
+
+							if ((localStorage.getItem("image")) != null) {
+								image = localStorage.getItem("image");
+							}
+
 							function updateToCoco(){
-								alert("Running coco!")
+								image = "assets/images/CocoaPuffs.jpg";
+								localStorage.setItem("image", image);
+								window.location.reload();
 							}
 							function updateToRice(){
-								alert("Running rice!")
+								image = "assets/images/RiceKrisp.png";
+								localStorage.setItem("image", image);
+								window.location.reload();
 							}
 							function updateToCapt(){
-								alert("Running capt!")
+								image = "assets/images/original-crunch.jpg";
+								localStorage.setItem("image", image);
+								window.location.reload();
 							}
+
+							imageHTML = "<img src='" + image + "' id='display'>";
+							document.write(imageHTML);
 						</script>
 					</div>
 				</div>
