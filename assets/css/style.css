@@ -193,21 +193,6 @@ h1:hover {
     }
 }
 
-.gallery_image {
-	animation-name: expand;
-	animation-duration: 4s;
-}
-
-@keyframes expand {
-    from {
-    		position: absolute;
-    		top: 500px;
-    	}
-    to {
-    	position: inherit;
-    }
-}
-
 .gallery {
 	margin-top: 30px;
 }
